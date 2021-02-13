@@ -108,7 +108,7 @@ async def on_afk(event):
         msg = None
         if link and reason:
             message_to_reply = (
-                f"**I am AFK .\n\nAFK Since {endtime}\nReason : **{reason}"
+                f"**I am AFK .\n\nAFK Since {endtime} nan offline pokiran karanam \nReason : **{reason}"
             )
         elif reason:
             message_to_reply = f"`I am AFK .\n\nAFK Since {endtime}\nReason : {reason}`"
