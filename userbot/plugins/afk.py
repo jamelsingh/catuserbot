@@ -61,10 +61,11 @@ async def set_not_afk(event):
             await event.client.send_message(
                 BOTLOG_CHATID,
                 "#AFKFALSE \n`Set AFK mode to False\n"
-                + "Back alive! No Longer afk.\nWas afk for "
+                + "Back alive! nan thirumba online vanthuvitan! No Longer afk.\nWas afk for "
                 + endtime
                 + "`",
             )
+          
 
 
 @bot.on(
